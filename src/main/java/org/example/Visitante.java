@@ -2,7 +2,7 @@ package org.example;
 
 public class Visitante {
 
-    private Documento documento;
+    private final Documento documento;
 
     public Visitante(FabricaAbstrata fabrica) {
         this.documento = fabrica.createDocumento();
